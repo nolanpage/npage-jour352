@@ -5,12 +5,23 @@ BODY {
     color:#444;
     font-weight:400;
 }
+/*container of whole site*/
+#container {
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
 /*name at top*/
-h1 {
+/*to center, need the margin:0 auto*/
+#name {
     font-size:3em;
     text-transform:uppercase;
     text-align:center;
     color:#33485e;
+    border-bottom:1px solid #33485e;
+    width:60%;
+    min-width:300px;
+    margin:0 auto;
 }
 /*personal title*/
 strong {
@@ -19,11 +30,17 @@ strong {
     font-size:1.5em;
 }
 /*section titles*/
-h2 {
+#sectionheader {
     font-size:1.5em;
     text-transform:uppercase;
     background-color:#33485e;
     color:#fff;
+    margin-bottom:10px;
+    margin-top:20px;
+    margin-right:0;
+    margin-left:0;
+    width:70%;
+    min-width:300px;
 }
 /*job titles*/
 h3 {
