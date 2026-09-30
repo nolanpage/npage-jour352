@@ -11,6 +11,23 @@ BODY {
     max-width:1200px;
     margin:0 auto;
 }
+/* p tags */
+.description {
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-right:0;
+    margin-left:0;
+}
+/*contact links at top*/
+.menu {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-align:center;
+}
+.menu li {
+    display:inline;
+}
 /*name at top*/
 /*to center, need the margin:0 auto*/
 #name {
@@ -24,10 +41,16 @@ BODY {
     margin:0 auto;
 }
 /*personal title*/
-strong {
+#title {
     color:#33485e;
     text-transform:uppercase;
     font-size:1.5em;
+    font-weight:600;
+    text-align:center;
+    margin-bottom:0;
+    margin-top:20px;
+    margin-right:0;
+    margin-left:0;
 }
 /*section titles*/
 #sectionheader {
@@ -51,14 +74,35 @@ strong {
 /*companies/organizations*/
 /*changed from h4*/
 .organization {
-    font-size:1.5em;
+    font-size:1.25em;
 }
 /*dates*/
-h5 {
+.date {
     font-size:1em;
     font-style:italic;
+    margin-bottom:0px;
+    margin-top:2px;
+    margin-right:0;
+    margin-left:0;
 }
 /*educations & skills lists*/
-li {
+#degrees {
     font-size:1em;
+    margin-bottom:0px;
+    margin-top:5px;
+    margin-right:0;
+    margin-left:0;
+}
+#do {
+    font-size:1em;
+    margin-bottom:0px;
+    margin-top:5px;
+    margin-right:0;
+    margin-left:0;
+}
+.top {
+    width:60%;
+    min-width:300px;
+    margin:0 auto;
+    margin-bottom:30;
 }
