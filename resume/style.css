@@ -6,7 +6,7 @@ BODY {
     font-weight:400;
 }
 /*container of whole site*/
-#container {
+.container {
     width:100%;
     max-width:1200px;
     margin:0 auto;
@@ -43,12 +43,14 @@ strong {
     min-width:300px;
 }
 /*job titles*/
-h3 {
+/*changed from h4*/
+.jobtitle {
     font-weight:600;
     font-size:1.5em;
 }
 /*companies/organizations*/
-h4 {
+/*changed from h4*/
+.organization {
     font-size:1.5em;
 }
 /*dates*/
