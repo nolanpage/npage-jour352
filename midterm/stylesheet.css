@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#e8e8e8;
+}
+#masthead p {
+    font-family: Georgia, Times, serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 600;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000000;
+    color:#000000;
+}
+#hed {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#content {
+    margin: 0 auto;
+    width: 650px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#featured-image {
+    max-width: 650px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+#featured-caption p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #414040;
+    padding-bottom: 50px;
+    font-size: 13px;
+}
+#excerpt {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    font-size: 1em;
+    border-top: #000000 5px solid;
+    font-weight: 600;
+}
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 600px;
+    line-height: .5em;
+}
+#pub {
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: left;
+    max-width: 600px;
+}
+#story {
+    font-family: Georgia, serif;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 13px;
+    line-height: 20px;
+}
+#subhed {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+blockquote {
+    max-width:900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    font-size:1.2em;
+    line-height: 1.2em;
+}
+#first-image-container {
+    max-width: 350px;
+    float: right;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#first-image {
+    max-width: 350px;
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+#first-caption {
+    max-width: 350px;
+    color: #414040;
+    padding-bottom: 0px;
+    font-size: 13px;
+    line-height: 1.25em;
+    font-family: Helvetica, sans-serif;
+}
+#readmore p {
+    text-align: left;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#bottom-image {
+    max-width: 650px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 8px;
+    padding-top: 10px;
+}
+#bottom-caption p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #414040;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+#readmore p {
+    padding-bottom: 8px;
+    color: #000000;
+    font-size: 1em;
+}
+#readmore {
+    padding-bottom: 20px;
+}
