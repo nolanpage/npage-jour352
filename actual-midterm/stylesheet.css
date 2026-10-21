@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#e3e0d9;
+}
+#content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#masthead {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #e3e0d9;
+    background-color: #061f02;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Georgia, Times, serif;
+    font-size: 40px;
+    font-weight: 550;
+    color: #000000;
+    padding-top: 50px;
+    max-width:900px;
+}
+#excerpt {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 350;
+    color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width:800px;
+}
+#pub {
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    max-width: 600px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+#featured-image {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 25px;
+}
+/*There's a bit more space between the captions and the images than I'd like, but I think I have the padding at 0.*/
+.caption {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #061f02;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#byline {
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+#story {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.subhed {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#second-image-container {
+    max-width: 350px;
+    float: right;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#first-image {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+#second-image {
+    max-width: 300px;
+}
+blockquote {
+    max-width:700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 5px solid #061f02;
+    border-bottom: 5px solid #061f02;
+    font-size:20px;
+    line-height: 25px;
+}
+#bottom-image {
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+#readmore {
+    padding-bottom: 0px;
+    color: #061f02;
+    font-size: 20px;
+    font-weight: 600;
+}
+.link {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+}
