@@ -1,6 +1,139 @@
-h1 {
-    font-family: "Bodoni Moda", serif;
-    font-optical-sizing: auto;
+body {
+    background-color: #e5e5e5;
+}
+.bg-image {
+    background-image: url("banner.svg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar-brand {
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
     font-weight: 400;
-    font-style: regular;
+    color: #e5e5e5;
+}
+.header {
+    border-bottom: 2px solid black;
+}
+.header-wrapper {
+    padding-left: 80px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+} 
+#name {
+    font-family: "Bodoni Moda", serif;
+    font-size: 66px;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    padding-top: 25px;
+    margin-bottom: 0;
+    padding-top: 5;
+}
+#position {
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: #3a3a3a;
+    margin-top: 0;
+}
+.content-wrapper {
+    padding-bottom: 0px;
+}
+/*.section {
+    font-family: "Bodoni Moda", serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    padding-left: 80px;
+    margin-bottom: 0;
+}*/
+.job {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding-left: 80px;
+    margin-bottom: 5px;
+}
+.blurb {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding-left: 80px;
+    line-height: 24px;
+}
+.blurb li {
+    margin-bottom: 6px;
+}
+.headshot {
+    width: 175px;
+    height: 175px;
+    border-top-left-radius: 87.5px;
+    border-top-right-radius: 87.5px;
+    border-bottom-left-radius: 87.5px;
+    border-bottom-right-radius: 87.5px;
+    margin-left: 212.5px;
+    margin-top: 20px;
+}
+#about {
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: -2px;
+}
+#abouttext {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: justify;
+}
+/* Honestly not sure I did this right — took some trial & error */
+.scroll {
+    height: 590px;
+    width: 440px;
+    background-image: url("scrollbg1.svg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 60px;
+}
+.clips {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+.featured {
+    max-width: 300px;
+    padding-bottom: 13px;
+    padding-top: 40px;
+}
+.hed {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #e5e5e5;
+    line-height: 24px;
+    text-decoration: none;
 }
