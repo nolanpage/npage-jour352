@@ -6,11 +6,16 @@ body {
     background-size: cover;
     background-position: center;
 }
-.navbar-brand {
-    margin: 0 auto;
+.nav-item {
+    text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: 400;
+    color: #e5e5e5;
+}
+.navbar .nav-link .active {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
     color: #e5e5e5;
 }
 .header {
