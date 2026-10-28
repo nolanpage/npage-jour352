@@ -152,7 +152,7 @@ body {
 }
 /* Honestly not sure I did this right — took some trial & error */
 .scroll {
-    height: 620px;
+    height: 640px;
     width: 440px;
     background-image: url("scrollbg1.svg");
     background-size: cover;
