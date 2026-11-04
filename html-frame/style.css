@@ -1,0 +1,56 @@
+.hed {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+.byline {
+    font-size: 1.25em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.subbhed {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    text-align: left;
+}
+p {
+    font-size: 1.25em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 1.15em;
+}
+.img-container {
+    text-align: center;
+}
+.featured {
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    text-align: center;
+    display: block;
+}
+.caption {
+    font-size: .75em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #111111;
+    max-width: 100%;
+}
+.footer-text {
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: #e5e5e5;
+}
